@@ -1,4 +1,4 @@
-1click-edit-image | https://1ce.org
+1click-paint-brush | https://1ce.org
 
 
 This extension is an open-source 📰 extension. What is it mean for you:
