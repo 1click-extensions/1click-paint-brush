@@ -1,0 +1,13 @@
+{
+    "create_new_image": {"message": "Create new image" },
+    "width": {"message": "Width" },
+    "height": {"message": "Height" },
+    "create": {"message": "Create" },
+    "fill_height_and_width": {"message": "Please fill height and width with numbers only" },
+    "browser_action": {"message": "paintbrush" },
+    "ext_desc": {"message": "
+    Create image with one click" },
+    "ext_name": {"message": "1click Paintbrush" }
+  }
+  
+  

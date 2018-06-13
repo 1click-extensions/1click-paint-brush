@@ -1,0 +1,11 @@
+{
+  	"create_new_image": {"message": "צור תמונה חדשה" },
+	"width": {"message": "רוחב" },
+	"height": {"message": "גובה" },
+	"create": {"message": "צור" },
+	"fill_height_and_width": {"message": "אנא מלא גובה ורוחב, במספרים בלבד" },
+  	"browser_action": {"message": "צור תמונה" },
+  	"ext_desc": {"message": "צור וערוך תמונה בלחיצה אחת" },
+  	"ext_name": {"message": "יציאת תמונה בלחיצה אחת" }
+}
+
