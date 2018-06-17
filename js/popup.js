@@ -18,6 +18,11 @@ $(function(){
 		var width = parseInt($('#resize-width').val()),
 			height = parseInt($('#resize-height').val());
 		if(width && height){
+			console.log({
+				data:'createImg',
+				width:width,
+				height:height,
+			})
 			chrome.runtime.sendMessage({
 				data:'createImg',
 				width:width,

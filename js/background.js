@@ -18,7 +18,11 @@ if (!localStorage.created) {
   //console.log(sender)
   switch (data.data) {
       case 'createImg':
-        console.log(screenshot.canvas);
+      
+        if(!screenshot.canvas){
+          screenshot.canvas = document.createElement('canvas');
+        }
+
         screenshot.canvas.width = data.width;
         screenshot.canvas.height = data.height;
         chrome.tabs.create({url: chrome.extension.getURL('editor.html') + '#last'});
