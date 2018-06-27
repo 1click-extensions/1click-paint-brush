@@ -15,6 +15,7 @@
         "default_title": "__MSG_browser_action__",
         "default_popup": "popup.html"
     },
-    "offline_enabled":true,
-    "default_locale": "en"
+    "offline_enabled": true,
+    "default_locale": "en",
+    "homepage_url": "https://1ce.org"
 }
