@@ -14,18 +14,18 @@ if (!localStorage.created) {
 // //  screenshot.createBySimpleImg('    ', 700, 700);  
 //  });
 localStorage['pngjpg'] = "png";
- chrome.runtime.onMessage.addListener(function (data, sender, callback) {
+chrome.browserAction.onClicked.addListener(function (data, sender, callback) {
   //console.log(sender)
-  switch (data.data) {
-      case 'createImg':
+  // switch (data.data) {
+  //     case 'createImg':
       
         if(!screenshot.canvas){
           screenshot.canvas = document.createElement('canvas');
         }
 
-        screenshot.canvas.width = data.width;
-        screenshot.canvas.height = data.height;
+        screenshot.canvas.width = window.screen.availWidth - 50;
+        screenshot.canvas.height = window.screen.availHeight - 250;
         chrome.tabs.create({url: chrome.extension.getURL('editor.html') + '#last'});
-        break;
-    }
+    //     break;
+    // }
 });
